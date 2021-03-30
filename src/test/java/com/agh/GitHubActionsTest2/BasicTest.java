@@ -20,6 +20,11 @@ public class BasicTest {
 
     @Test
     public void aFailure() {
-        Assert.assertEquals("Not string", a.getString());
+        Assert.assertEquals("Not String", a.getString());
+    }
+
+    @Test
+    public void aAnotherSuccess() {
+        Assert.assertEquals("Not String", a.getNotString());
     }
 }
