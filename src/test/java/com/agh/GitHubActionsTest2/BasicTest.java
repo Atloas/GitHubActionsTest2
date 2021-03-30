@@ -18,10 +18,10 @@ public class BasicTest {
         Assert.assertEquals("String", a.getString());
     }
 
-    @Test
-    public void aFailure() {
-        Assert.assertEquals("Not String", a.getString());
-    }
+//    @Test
+//    public void aFailure() {
+//        Assert.assertEquals("Not String", a.getString());
+//    }
 
     @Test
     public void aAnotherSuccess() {
