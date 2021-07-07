@@ -4,4 +4,8 @@ public class A {
     public String getString() {
         return "String";
     }
+
+    public String getNotString() {
+        return "Not String";
+    }
 }
